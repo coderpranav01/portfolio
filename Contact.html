@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="top" id="top"></div>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#"><span>A</span>ditay</a></div>
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#about">About</a></li>
+                <li><a href="/index.html#skills">Skills</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/Contact.html">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/pranav.bokare.7?mibextid=rS40aB7S9Ucbxw6v"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/DevraoBokare"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/itsme_pranav001?igsh=ZDExYjZkNGI0OA=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/devrao-bokare-a0266b299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- My Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row input-container">
+                <form action="https://formsubmit.co/devraobokare2005+contactForm@gmail.com"method="post">
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <input type="text" name="name" required />
+                            <label>Name</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input">
+                            <input type="email" name="Email" required />
+                            <label>Email</label> 
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="styled-input" style="float:right;">
+                            <input type="number" name="phone" required />
+                            <label>Phone Number</label> 
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <textarea name="message" required></textarea>
+                            <label>Message</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <button class="btn-lrg submit-btn" type="submit">Send Message</button>
+                    </div>
+                    </form>
+                </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights
+                Reserved</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
